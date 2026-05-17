@@ -1,0 +1,885 @@
+{
+  "festival_intelligence_engine": [
+
+    {
+      "name": "Makar Sankranti",
+      "type": "Solar Festival",
+      "tithi_or_event": "Sun enters Capricorn",
+
+      "festival_or_tithi": "Makar Sankranti",
+
+      "puranic_practice": "Surya Arghya, sesame-jaggery intake, holy bath, charity",
+
+      "puranic_scientific_logic": "Uttarayan increases solar exposure and heat-producing foods stabilize the body after winter",
+
+      "modern_scientific_therapy": "Phototherapy and nutritional thermogenesis",
+
+      "modern_name_difference": "Vitamin D therapy and seasonal metabolic correction",
+
+      "core_common_principle": "Solar energy regulates endocrine and immune systems",
+
+      "puranic_logic": {
+        "symbolism": "Upward movement of consciousness",
+        "story_reference": "Bhishma Pitamah waiting for Uttarayan",
+        "encoded_message": "Solar alignment enhances vitality"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": [
+          "Sun worship",
+          "Holy river bath",
+          "Donation of sesame and jaggery"
+        ],
+
+        "fasting_type": "Light fasting",
+
+        "reason": "Seasonal metabolic adaptation"
+      },
+
+      "modern_scientific_comparison": {
+
+        "ancient_practice": "Sun exposure and thermogenic foods",
+
+        "modern_therapy": "Circadian rhythm therapy",
+
+        "scientific_basis": [
+          "Vitamin D synthesis",
+          "Improved immunity",
+          "Hormonal balance"
+        ]
+      },
+
+      "unique_insight": "Ancient solar biohacking festival",
+
+      "image_url": "https://indianexpress.com/wp-content/uploads/2020/01/Makar-Sankranti_feature.jpg"
+    },
+
+
+    {
+      "name": "Pongal",
+      "type": "Harvest Festival",
+      "tithi_or_event": "Tamil solar month Thai",
+
+      "festival_or_tithi": "Pongal",
+      "puranic_practice": "Rice boiling ritual, cattle worship, sun gratitude",
+      "puranic_scientific_logic": "Fresh harvest consumption restores micronutrients; gratitude reduces stress",
+      "modern_scientific_therapy": "Nutritional replenishment and stress management",
+      "modern_name_difference": "Post-harvest nutritional rehabilitation",
+      "core_common_principle": "Diet and gratitude improve metabolic health",
+
+      "puranic_logic": {
+        "symbolism": "Abundance and harmony with nature",
+        "story_reference": "Surya gratitude tradition",
+        "encoded_message": "Sustainability ensures survival"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Boiling rice", "Cow worship"],
+        "fasting_type": "None",
+        "reason": "Energy replenishment"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Fresh grain intake",
+        "modern_therapy": "Micronutrient restoration",
+        "scientific_basis": [
+          "Improved gut health",
+          "Reduced nutritional deficiencies"
+        ]
+      },
+
+      "unique_insight": "Agricultural nutrition encoded as ritual",
+       "image_url": "https://kymee.in/cdn/shop/articles/Pongal_Wishes_ffad9154-980a-4dbb-af46-25d64491f2b2.jpg"
+    },
+
+    {
+      "name": "Lohri",
+      "type": "Seasonal Festival",
+      "tithi_or_event": "Winter solstice phase",
+
+      "festival_or_tithi": "Lohri",
+      "puranic_practice": "Bonfire, sesame, peanuts consumption",
+      "puranic_scientific_logic": "Fire warmth and fat-rich foods counter cold-induced metabolic stress",
+      "modern_scientific_therapy": "Thermotherapy and calorie-dense nutrition",
+      "modern_name_difference": "Cold-climate metabolic adaptation",
+      "core_common_principle": "Heat preserves energy balance",
+
+      "puranic_logic": {
+        "symbolism": "Fire as life sustainer",
+        "story_reference": "Agrarian seasonal change",
+        "encoded_message": "Heat protects vitality"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Bonfire", "Offerings"],
+        "fasting_type": "None",
+        "reason": "Prevent energy loss"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Fire exposure",
+        "modern_therapy": "Thermal regulation",
+        "scientific_basis": [
+          "Improved circulation",
+          "Cold stress reduction"
+        ]
+      },
+
+      "unique_insight": "Winter thermoregulation ritual",
+      "image_url": "https://img.jagranjosh.com/images/2025/January/1212025/images-lohri.webp"
+    },
+
+    {
+      "name": "Vasant Panchami",
+      "type": "Seasonal Knowledge Festival",
+      "tithi_or_event": "Magha Shukla Panchami",
+
+      "festival_or_tithi": "Vasant Panchami",
+      "puranic_practice": "Saraswati worship, yellow food intake",
+      "puranic_scientific_logic": "Spring color stimulation enhances mood and cognition",
+      "modern_scientific_therapy": "Color psychology and cognitive priming",
+      "modern_name_difference": "Neuro-mood activation",
+      "core_common_principle": "Sensory input enhances cognition",
+
+      "puranic_logic": {
+        "symbolism": "Knowledge awakening",
+        "story_reference": "Goddess Saraswati",
+        "encoded_message": "Learning blooms with nature"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Study initiation"],
+        "fasting_type": "Optional",
+        "reason": "Mental clarity"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Color symbolism",
+        "modern_therapy": "Neuro-stimulation",
+        "scientific_basis": [
+          "Mood elevation",
+          "Attention enhancement"
+        ]
+      },
+
+      "unique_insight": "Spring cognitive activation protocol",
+      "image_url": "https://images.indianexpress.com/2026/01/Happy-Basant-Panchami-Images-2026.jpg"
+    },
+
+    {
+      "name": "Maha Shivaratri",
+      "type": "Spiritual Night Festival",
+      "tithi_or_event": "Krishna Paksha Chaturdashi",
+
+      "festival_or_tithi": "Maha Shivaratri",
+      "puranic_practice": "Night vigil, fasting, mantra chanting",
+      "puranic_scientific_logic": "Sleep and food deprivation redirect energy to awareness",
+      "modern_scientific_therapy": "Mindfulness and dopamine reset",
+      "modern_name_difference": "Neurocognitive recalibration",
+      "core_common_principle": "Controlled deprivation sharpens consciousness",
+
+      "puranic_logic": {
+        "symbolism": "Consciousness over inertia",
+        "story_reference": "Cosmic Tandava",
+        "encoded_message": "Awareness conquers darkness"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Abhishekam", "Vigil"],
+        "fasting_type": "Complete",
+        "reason": "Mental clarity"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Fasting + meditation",
+        "modern_therapy": "Mindfulness-based stress reduction",
+        "scientific_basis": [
+          "Reduced insulin spikes",
+          "Enhanced alertness"
+        ]
+      },
+
+      "unique_insight": "Annual neural reset ritual",
+      "image_url": "https://img.jagranjosh.com/images/2024/March/832024/mahashivratri-2024.webp"
+    },
+
+    {
+      "name": "Holi",
+      "type": "Seasonal Festival",
+      "tithi_or_event": "Phalguna Purnima",
+
+      "festival_or_tithi": "Holi",
+      "puranic_practice": "Holika Dahan, herbal colors, social play",
+      "puranic_scientific_logic": "Fire destroys pathogens; joy boosts immunity",
+      "modern_scientific_therapy": "Stress relief and immunological priming",
+      "modern_name_difference": "Psycho-immunological therapy",
+      "core_common_principle": "Emotion regulates immunity",
+
+      "puranic_logic": {
+        "symbolism": "Renewal",
+        "story_reference": "Prahlad–Holika",
+        "encoded_message": "Joy defeats toxicity"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Bonfire"],
+        "fasting_type": "Light",
+        "reason": "Digestive rest"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Social celebration",
+        "modern_therapy": "Cortisol reduction",
+        "scientific_basis": [
+          "Improved immunity",
+          "Mental well-being"
+        ]
+      },
+
+      "unique_insight": "Spring immune activation ritual",
+      "image_url": "https://img.pikbest.com/illustration/20250108/happy-children-celebrating-a-colorful-holi-festival_11354121.jpg!bw800"
+    },
+
+    {
+      "name": "Rama Navami",
+      "type": "Ethical Festival",
+      "tithi_or_event": "Chaitra Shukla Navami",
+
+      "festival_or_tithi": "Rama Navami",
+      "puranic_practice": "Sattvic diet, moral observance",
+      "puranic_scientific_logic": "Ethical alignment reduces cognitive stress",
+      "modern_scientific_therapy": "Values-based cognitive therapy",
+      "modern_name_difference": "Moral psychology alignment",
+      "core_common_principle": "Integrity stabilizes mental health",
+
+      "puranic_logic": {
+        "symbolism": "Ideal conduct",
+        "story_reference": "Birth of Lord Rama",
+        "encoded_message": "Dharma ensures stability"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Bhajan"],
+        "fasting_type": "Partial",
+        "reason": "Mental purity"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Ethical discipline",
+        "modern_therapy": "Cognitive consistency therapy",
+        "scientific_basis": [
+          "Reduced anxiety",
+          "Improved focus"
+        ]
+      },
+
+      "unique_insight": "Ethical psychology encoded as ritual",
+      "image_url": "https://www.iskconbangalore.org/wp-content/uploads/2022/08/rama-navami-iskcon.jpg"
+    },
+
+    {
+      "name": "Hanuman Jayanti",
+      "type": "Strength Festival",
+      "tithi_or_event": "Chaitra Purnima",
+
+      "festival_or_tithi": "Hanuman Jayanti",
+      "puranic_practice": "Fasting, physical discipline, chanting",
+      "puranic_scientific_logic": "Self-control and breath discipline increase stamina",
+      "modern_scientific_therapy": "Endurance and breath training",
+      "modern_name_difference": "Physical resilience conditioning",
+      "core_common_principle": "Discipline builds strength",
+
+      "puranic_logic": {
+        "symbolism": "Controlled power",
+        "story_reference": "Birth of Hanuman",
+        "encoded_message": "Strength requires restraint"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Chanting"],
+        "fasting_type": "Partial",
+        "reason": "Energy conservation"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Brahmacharya",
+        "modern_therapy": "Endurance training",
+        "scientific_basis": [
+          "Improved stamina",
+          "Mental focus"
+        ]
+      },
+
+      "unique_insight": "Ancient strength-conditioning model",
+       "image_url": "https://images.indianexpress.com/2025/04/Happy-Hanuman-Jayanti-2025-Wishes-Images.jpg"
+    },
+
+    {
+      "name": "Ugadi",
+      "type": "Lunar New Year",
+      "tithi_or_event": "Chaitra Shukla Pratipada",
+
+      "festival_or_tithi": "Ugadi",
+      "puranic_practice": "Neem-jaggery consumption, Panchanga reading",
+      "puranic_scientific_logic": "Combination of bitter and sweet trains emotional resilience and digestive reset",
+      "modern_scientific_therapy": "Gut detox and emotional adaptability training",
+      "modern_name_difference": "Cognitive-emotional resilience therapy",
+      "core_common_principle": "Balanced acceptance improves mental health",
+
+      "puranic_logic": {
+        "symbolism": "Life has mixed experiences",
+        "story_reference": "Brahma’s creation cycle",
+        "encoded_message": "Acceptance ensures psychological stability"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Neem-jaggery intake"],
+        "fasting_type": "Light",
+        "reason": "Seasonal gut reset"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Taste-based conditioning",
+        "modern_therapy": "Exposure therapy",
+        "scientific_basis": [
+          "Gut microbiome reset",
+          "Stress tolerance"
+        ]
+      },
+
+      "unique_insight": "Ancient emotional intelligence conditioning ritual",
+      "image_url": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1pva1iipl2ah8aotn2y/1/ugadi-jpg"
+    },
+
+    {
+      "name": "Gudi Padwa",
+      "type": "Solar-Lunar New Year",
+      "tithi_or_event": "Chaitra Shukla Pratipada",
+
+      "festival_or_tithi": "Gudi Padwa",
+      "puranic_practice": "Flag hoisting, oil massage, sattvic food",
+      "puranic_scientific_logic": "Morning sunlight and oil massage stimulate lymphatic and circulatory systems",
+      "modern_scientific_therapy": "Chronotherapy and lymphatic activation",
+      "modern_name_difference": "Morning circadian optimization",
+      "core_common_principle": "Sunlight synchronizes biological clock",
+
+      "puranic_logic": {
+        "symbolism": "Victory and renewal",
+        "story_reference": "Victory of Dharma",
+        "encoded_message": "Alignment brings success"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Oil bath"],
+        "fasting_type": "None",
+        "reason": "Energy activation"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Oil massage + sunlight",
+        "modern_therapy": "Circadian rhythm therapy",
+        "scientific_basis": [
+          "Improved circulation",
+          "Hormonal balance"
+        ]
+      },
+
+      "unique_insight": "New-year biological clock reset",
+      "image_url": "https://www.indiagatefoods.com/wp-content/uploads/2022/03/india-gate-Gudi-Padwa.jpg"
+    },
+
+    {
+      "name": "Akshaya Tritiya",
+      "type": "Prosperity Alignment Day",
+      "tithi_or_event": "Vaishakha Shukla Tritiya",
+
+      "festival_or_tithi": "Akshaya Tritiya",
+      "puranic_practice": "Charity, minimal consumption, starting ventures",
+      "puranic_scientific_logic": "Minimalism and generosity reduce stress and decision fatigue",
+      "modern_scientific_therapy": "Positive psychology and behavioral economics",
+      "modern_name_difference": "Abundance mindset therapy",
+      "core_common_principle": "Giving enhances well-being",
+
+      "puranic_logic": {
+        "symbolism": "Infinite growth",
+        "story_reference": "Sudama–Krishna",
+        "encoded_message": "Prosperity follows generosity"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Donation"],
+        "fasting_type": "Optional",
+        "reason": "Mental clarity"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Charity",
+        "modern_therapy": "Dopamine reinforcement",
+        "scientific_basis": [
+          "Reduced anxiety",
+          "Positive emotions"
+        ]
+      },
+
+      "unique_insight": "Wealth psychology encoded in ritual",
+      "image_url": "https://images.indianexpress.com/2023/04/akshaya-tritiya.jpg"
+    },
+
+    {
+      "name": "Raksha Bandhan",
+      "type": "Social Bonding Festival",
+      "tithi_or_event": "Shravana Purnima",
+
+      "festival_or_tithi": "Raksha Bandhan",
+      "puranic_practice": "Sacred thread tying, vows of protection",
+      "puranic_scientific_logic": "Social bonding improves oxytocin and emotional security",
+      "modern_scientific_therapy": "Attachment and bonding therapy",
+      "modern_name_difference": "Social resilience training",
+      "core_common_principle": "Strong relationships reduce stress",
+
+      "puranic_logic": {
+        "symbolism": "Mutual responsibility",
+        "story_reference": "Krishna–Draupadi",
+        "encoded_message": "Trust sustains society"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Raksha Sutra"],
+        "fasting_type": "None",
+        "reason": "Emotional nourishment"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Bond reaffirmation",
+        "modern_therapy": "Oxytocin stimulation",
+        "scientific_basis": [
+          "Emotional security",
+          "Lower cortisol"
+        ]
+      },
+
+      "unique_insight": "Ancient social-psychology intervention",
+      "image_url": "https://hinduvism.com/wp-content/uploads/2024/09/Untitled-design-2024-09-30T164523.980.jpg"
+    },
+
+    {
+      "name": "Janmashtami",
+      "type": "Spiritual Birth Festival",
+      "tithi_or_event": "Bhadrapada Krishna Ashtami",
+
+      "festival_or_tithi": "Janmashtami",
+      "puranic_practice": "Midnight fasting, bhajan, controlled celebration",
+      "puranic_scientific_logic": "Fasting + devotion enhances impulse control and joy balance",
+      "modern_scientific_therapy": "Impulse regulation therapy",
+      "modern_name_difference": "Dopamine discipline",
+      "core_common_principle": "Controlled joy prevents addiction",
+
+      "puranic_logic": {
+        "symbolism": "Divinity within chaos",
+        "story_reference": "Birth of Krishna",
+        "encoded_message": "Balance play and discipline"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Night vigil"],
+        "fasting_type": "Complete",
+        "reason": "Self-regulation"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Fasting + devotion",
+        "modern_therapy": "Behavioral control training",
+        "scientific_basis": [
+          "Dopamine balance",
+          "Improved focus"
+        ]
+      },
+
+      "unique_insight": "Ancient addiction-prevention model",
+       "image_url": "https://images.news9live.com/wp-content/uploads/2024/08/Krishna-Janmashtami.jpg"
+
+    },
+
+    {
+      "name": "Ganesh Chaturthi",
+      "type": "Wisdom Festival",
+      "tithi_or_event": "Bhadrapada Shukla Chaturthi",
+
+      "festival_or_tithi": "Ganesh Chaturthi",
+      "puranic_practice": "Clay idol worship, group rituals",
+      "puranic_scientific_logic": "Community participation improves cognitive flexibility",
+      "modern_scientific_therapy": "Group therapy and creative cognition",
+      "modern_name_difference": "Collective intelligence activation",
+      "core_common_principle": "Creativity solves obstacles",
+
+      "puranic_logic": {
+        "symbolism": "Obstacle removal",
+        "story_reference": "Ganapati",
+        "encoded_message": "Wisdom precedes success"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Eco idol immersion"],
+        "fasting_type": "Partial",
+        "reason": "Mental discipline"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Creative worship",
+        "modern_therapy": "Neuroplastic engagement",
+        "scientific_basis": [
+          "Problem-solving",
+          "Emotional intelligence"
+        ]
+      },
+
+      "unique_insight": "Cognitive problem-solving ritual",
+      "image_url": "https://img.republicworld.com/all_images/ganesh-chaturthi-2025-1756136133578-16_9.webp"
+
+    },
+
+    {
+      "name": "Navratri",
+      "type": "Energetic Detox Cycle",
+      "tithi_or_event": "Ashwin Shukla Pratipada–Navami",
+
+      "festival_or_tithi": "Navratri",
+      "puranic_practice": "Nine-day fasting, rhythmic movement",
+      "puranic_scientific_logic": "Prolonged fasting resets metabolism and hormonal balance",
+      "modern_scientific_therapy": "Intermittent fasting and movement therapy",
+      "modern_name_difference": "Metabolic reset protocol",
+      "core_common_principle": "Energy purification restores health",
+
+      "puranic_logic": {
+        "symbolism": "Nine energies",
+        "story_reference": "Durga Shakti",
+        "encoded_message": "Balance inner forces"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Garba", "Fasting"],
+        "fasting_type": "Partial",
+        "reason": "Cellular detox"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Rhythm + fasting",
+        "modern_therapy": "Hormonal regulation",
+        "scientific_basis": [
+          "Autophagy",
+          "Improved insulin sensitivity"
+        ]
+      },
+
+      "unique_insight": "Annual hormonal recalibration system",
+       "image_url": "https://images.news18.com/ibnlive/uploads/2021/10/happy-navratri-3.jpg"
+    },
+
+    {
+      "name": "Diwali",
+      "type": "Light & Mental Reset Festival",
+      "tithi_or_event": "Kartika Amavasya",
+
+      "festival_or_tithi": "Diwali",
+      "puranic_practice": "Lamp lighting, home cleaning",
+      "puranic_scientific_logic": "Light exposure improves mood; decluttering reduces anxiety",
+      "modern_scientific_therapy": "Light therapy and environmental psychology",
+      "modern_name_difference": "Seasonal affective disorder management",
+      "core_common_principle": "Clean environment = clear mind",
+
+      "puranic_logic": {
+        "symbolism": "Light over darkness",
+        "story_reference": "Rama’s return",
+        "encoded_message": "Awareness dispels ignorance"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Cleaning"],
+        "fasting_type": "Light",
+        "reason": "Mental clarity"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Lamp lighting",
+        "modern_therapy": "Mood regulation",
+        "scientific_basis": [
+          "Serotonin boost",
+          "Reduced depression"
+        ]
+      },
+
+      "unique_insight": "Ancient depression-prevention festival",
+      "image_url": "https://images.herzindagi.info/image/2023/Nov/diwali-greetings-2023.jpg"
+    },
+
+    {
+      "name": "Chhath Puja",
+      "type": "Solar Bio-Regulation Ritual",
+      "tithi_or_event": "Kartika Shukla Shashthi",
+
+      "festival_or_tithi": "Chhath Puja",
+      "puranic_practice": "Water standing, sun exposure, prolonged fasting",
+      "puranic_scientific_logic": "Solar infrared rays improve immunity and spinal health",
+      "modern_scientific_therapy": "Hydrotherapy and heliotherapy",
+      "modern_name_difference": "Solar rehabilitation therapy",
+      "core_common_principle": "Sun heals biological systems",
+
+      "puranic_logic": {
+        "symbolism": "Solar life force",
+        "story_reference": "Surya worship",
+        "encoded_message": "Life flows from sun"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Sun offering"],
+        "fasting_type": "Prolonged",
+        "reason": "Immune activation"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Sun-water therapy",
+        "modern_therapy": "Vitamin D activation",
+        "scientific_basis": [
+          "Spinal strength",
+          "Immune modulation"
+        ]
+      },
+
+      "unique_insight": "Advanced solar bio-therapy ritual",
+      "image_url": "https://static.toiimg.com/thumb/msid-124755797,imgsize-30180,width-400,resizemode-4/chath-puja-2025.jpg"
+
+    },
+    
+
+    {
+      "name": "Kartik Purnima",
+      "type": "Purification Day",
+      "tithi_or_event": "Kartika Purnima",
+
+      "festival_or_tithi": "Kartik Purnima",
+      "puranic_practice": "Holy bath, charity",
+      "puranic_scientific_logic": "Water exposure and reflection improve parasympathetic activation",
+      "modern_scientific_therapy": "Cold-water therapy and mindfulness",
+      "modern_name_difference": "Parasympathetic nervous reset",
+      "core_common_principle": "Calm restores balance",
+
+      "puranic_logic": {
+        "symbolism": "Purity",
+        "story_reference": "Tulsi worship",
+        "encoded_message": "Stillness heals"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["River bath"],
+        "fasting_type": "Light",
+        "reason": "Mental purification"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Cold immersion",
+        "modern_therapy": "Vagal stimulation",
+        "scientific_basis": [
+          "Reduced inflammation",
+          "Stress relief"
+        ]
+      },
+
+      "unique_insight": "Parasympathetic nervous system activation",
+
+       "image_url": "https://templeofinnerwisdom.org/wp-content/uploads/2022/12/Kartik-purnima.jpg"
+
+      
+    },
+
+    {
+      "name": "Thaipusam",
+      "type": "Extreme Discipline Festival",
+      "tithi_or_event": "Thai Pusam",
+
+      "festival_or_tithi": "Thaipusam",
+      "puranic_practice": "Austerity, pain endurance, vows",
+      "puranic_scientific_logic": "Controlled pain exposure increases endorphin release",
+      "modern_scientific_therapy": "Pain desensitization therapy",
+      "modern_name_difference": "Endorphin conditioning",
+      "core_common_principle": "Mind dominates pain",
+
+      "puranic_logic": {
+        "symbolism": "Victory over senses",
+        "story_reference": "Murugan’s triumph",
+        "encoded_message": "Willpower transcends pain"
+      },
+
+      "rituals_and_fasting": {
+        "rituals": ["Austerity"],
+        "fasting_type": "Strict",
+        "reason": "Mental mastery"
+      },
+
+      "modern_scientific_comparison": {
+        "ancient_practice": "Pain tolerance",
+        "modern_therapy": "Neural pain modulation",
+        "scientific_basis": [
+          "Endorphin surge",
+          "Mental resilience"
+        ]
+      },
+
+      "unique_insight": "Ancient neural pain-conditioning system", 
+
+      "image_url": "https://ichef.bbci.co.uk/images/ic/1024xn/p014mrxy.jpg.webp"
+    }
+,
+{
+  "name": "Karwa Chauth",
+  "type": "Lunar Fasting Festival",
+  "tithi_or_event": "Krishna Paksha Chaturthi (Kartika month)",
+
+  "festival_or_tithi": "Karwa Chauth",
+  "puranic_practice": "Nirjala fasting, moon worship, offering water through sieve",
+  "puranic_scientific_logic": "Prolonged fasting improves metabolic efficiency; moon sighting regulates emotional and circadian balance",
+  "modern_scientific_therapy": "Time-restricted fasting and hormonal balance therapy",
+  "modern_name_difference": "Metabolic endurance training and emotional bonding psychology",
+  "core_common_principle": "Metabolic discipline combined with psychosocial bonding",
+
+  "puranic_logic": {
+    "symbolism": "Moon as emotional regulator and sustainer of life",
+    "story_reference": "Queen Veeravati and the power of vrata",
+    "encoded_message": "Emotional resilience strengthens physical endurance"
+  },
+
+  "rituals_and_fasting": {
+    "rituals": ["Nirjala fast", "Moon darshan", "Water offering"],
+    "fasting_type": "Complete waterless fast",
+    "reason": "Enhances insulin sensitivity and mental endurance"
+  },
+
+  "modern_scientific_comparison": {
+    "ancient_practice": "Day-long dry fasting + emotional intent",
+    "modern_therapy": "Autophagy induction and emotional resilience training",
+    "scientific_basis": [
+      "Improved insulin regulation",
+      "Enhanced self-control",
+      "Neuro-emotional bonding"
+    ]
+  },
+
+  "unique_insight": "Karwa Chauth encodes dry-fasting endurance and emotional neuroplasticity",
+
+  "image_url": "https://subkuz.com/uploads/news/2025/10/sub17599843562320.webp"
+}
+,
+{
+  "name": "Amavasya",
+  "type": "Lunar Phase",
+  "tithi_or_event": "New Moon",
+
+  "festival_or_tithi": "Amavasya",
+  "puranic_practice": "Silence, ancestor rituals, light fasting, meditation",
+  "puranic_scientific_logic": "Minimal lunar light corresponds to low sensory stimulation and introspection",
+  "modern_scientific_therapy": "Mindfulness-based emotional regulation",
+  "modern_name_difference": "Sensory detox and cognitive rest therapy",
+  "core_common_principle": "Mental quietness through sensory withdrawal",
+
+  "puranic_logic": {
+    "symbolism": "Darkness as introspection",
+    "story_reference": "Pitru tarpana and karmic balance",
+    "encoded_message": "Stillness enables emotional reset"
+  },
+
+  "rituals_and_fasting": {
+    "rituals": ["Tarpan", "Charity", "Meditation"],
+    "fasting_type": "Light fasting",
+    "reason": "Align mind-body state with low-energy lunar phase"
+  },
+
+  "modern_scientific_comparison": {
+    "ancient_practice": "Silence and fasting",
+    "modern_therapy": "Mindfulness and stress-reset therapy",
+    "scientific_basis": [
+      "Reduced cortisol levels",
+      "Improved emotional clarity",
+      "Better sleep patterns"
+    ]
+  },
+
+  "unique_insight": "Amavasya is a built-in lunar mental detox protocol",
+
+  "image_url": "https://static.toiimg.com/thumb/msid-126558544,width-1280,height-720,imgsize-151592,resizemode-6,overlay-toi_sw,pt-32,y_pad-600,x_pad-1200/photo.jpg"
+}
+,
+{
+  "name": "Chandra Grahan",
+  "type": "Astronomical Event",
+  "tithi_or_event": "Lunar Eclipse",
+
+  "festival_or_tithi": "Chandra Grahan",
+  "puranic_practice": "Complete fasting, mantra chanting, meditation",
+  "puranic_scientific_logic": "Gravitational and electromagnetic disturbances affect nervous system sensitivity",
+  "modern_scientific_therapy": "Circadian protection and nervous system regulation",
+  "modern_name_difference": "Environmental stress shielding protocols",
+  "core_common_principle": "Physiological protection during cosmic instability",
+
+  "puranic_logic": {
+    "symbolism": "Rahu-Ketu shadowing consciousness",
+    "story_reference": "Samudra Manthan eclipse legend",
+    "encoded_message": "Pause sensory intake during instability"
+  },
+
+  "rituals_and_fasting": {
+    "rituals": ["Mantra japa", "Meditation"],
+    "fasting_type": "Complete fasting",
+    "reason": "Prevents digestive and neurological stress"
+  },
+
+  "modern_scientific_comparison": {
+    "ancient_practice": "Fasting and isolation",
+    "modern_therapy": "Nervous system downregulation",
+    "scientific_basis": [
+      "Reduced stress response",
+      "Improved emotional control",
+      "Circadian rhythm stability"
+    ]
+  },
+
+  "unique_insight": "Eclipse fasting is a neurological shielding mechanism",
+  "image_url": "https://images.indianexpress.com/2026/03/ecliose.jpg?w=1600"
+
+}
+,
+{
+  "name": "Purnima",
+  "type": "Lunar Phase",
+  "tithi_or_event": "Full Moon",
+  "festival_or_tithi": "Purnima",
+  "puranic_practice": "Fasting, moon worship, water rituals",
+  "puranic_scientific_logic": "Full moon enhances emotional and fluid retention states in the body",
+  "modern_scientific_therapy": "Sleep-cycle and emotional regulation therapy",
+  "modern_name_difference": "Circadian and mood stabilization techniques",
+  "core_common_principle": "Emotional amplification control",
+  "puranic_logic": {
+    "symbolism": "Completion and fullness",
+    "story_reference": "Satyanarayana Vrata",
+    "encoded_message": "Balance heightened emotions with discipline"
+  },
+  "rituals_and_fasting": {
+    "rituals": ["Satyanarayana puja", "Moon worship"],
+    "fasting_type": "Partial fasting",
+    "reason": "Regulate emotional and digestive intensity"
+  },
+  "modern_scientific_comparison": {
+    "ancient_practice": "Lunar fasting",
+    "modern_therapy": "Mood regulation protocols",
+    "scientific_basis": [
+      "Stabilized emotional response",
+      "Improved sleep quality",
+      "Reduced anxiety spikes"
+    ]
+  },
+
+  "unique_insight": "Purnima rituals regulate emotional overstimulation",
+
+ "image_url": "https://static.toiimg.com/thumb/msid-127813499,imgsize-45042,width-400,resizemode-4/image-source-freepik.jpg"
+}
+  ]
+}
+

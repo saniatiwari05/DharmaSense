@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DharmaSense • Festival Intelligence Engine</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+
+    background:
+    radial-gradient(circle at top,#24104a 0%,#090114 45%,#000000 100%);
+
+    color:white;
+
+    overflow-x:hidden;
+
+    min-height:100vh;
+
+    position:relative;
+}
+
+/* STARS */
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    width:100%;
+    height:100%;
+
+    background:url("https://www.transparenttextures.com/patterns/stardust.png");
+
+    opacity:0.25;
+
+    z-index:-5;
+}
+
+/* GLOW */
+
+body::after{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+    radial-gradient(circle at center,
+    rgba(255,140,0,0.12),
+    transparent 60%);
+
+    z-index:-4;
+}
+
+/* COSMIC BACKGROUND */
+
+.cosmic-bg{
+
+    position:fixed;
+
+    inset:0;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    overflow:hidden;
+
+    z-index:-2;
+}
+
+/* CENTER GLOW */
+
+.center-glow{
+
+    position:absolute;
+
+    width:500px;
+    height:500px;
+
+    border-radius:50%;
+
+    background:
+    radial-gradient(circle,
+    rgba(255,170,0,0.22),
+    transparent 70%);
+}
+
+/* OM SYMBOL */
+
+.om-background{
+
+    position:absolute;
+
+    font-size:260px;
+
+    color:#ffcc66;
+
+    text-shadow:
+    0 0 20px #ff9900,
+    0 0 60px #ff8800,
+    0 0 120px #ff6600;
+
+    animation:omPulse 5s ease-in-out infinite;
+
+    z-index:5;
+}
+
+@keyframes omPulse{
+
+    0%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.05);
+    }
+
+    100%{
+        transform:scale(1);
+    }
+}
+
+/* ORBITS */
+
+.orbit{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    border:1px solid rgba(255,215,0,0.12);
+
+    animation:rotate linear infinite;
+}
+
+.orbit1{
+    width:220px;
+    height:220px;
+    animation-duration:10s;
+}
+
+.orbit2{
+    width:360px;
+    height:360px;
+    animation-duration:16s;
+}
+
+.orbit3{
+    width:520px;
+    height:520px;
+    animation-duration:24s;
+}
+
+.orbit4{
+    width:700px;
+    height:700px;
+    animation-duration:32s;
+}
+
+.orbit5{
+    width:900px;
+    height:900px;
+    animation-duration:40s;
+}
+
+@keyframes rotate{
+
+    from{
+        transform:rotate(0deg);
+    }
+
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+/* PLANETS */
+
+.planet{
+
+    position:absolute;
+
+    top:-12px;
+    left:50%;
+
+    width:24px;
+    height:24px;
+
+    border-radius:50%;
+}
+
+.planet1{
+    background:#ff9933;
+
+    box-shadow:
+    0 0 20px orange,
+    0 0 40px orange;
+}
+
+.planet2{
+    background:#66ccff;
+
+    box-shadow:
+    0 0 20px #00bfff,
+    0 0 40px #00bfff;
+}
+
+.planet3{
+    background:#d9b3ff;
+
+    box-shadow:
+    0 0 20px violet,
+    0 0 40px violet;
+}
+
+.planet4{
+    background:#ffe066;
+
+    box-shadow:
+    0 0 20px gold,
+    0 0 40px gold;
+}
+
+.planet5{
+    background:#ff6666;
+
+    box-shadow:
+    0 0 20px red,
+    0 0 40px red;
+}
+
+/* HERO CONTENT */
+
+.hero-content{
+
+    position:relative;
+
+    z-index:5;
+
+    text-align:center;
+
+    padding-top:120px;
+
+    margin-bottom:40px;
+}
+
+/* TITLE */
+
+.main-title{
+
+    font-size:60px;
+
+    font-weight:700;
+
+    background:
+    linear-gradient(to right,#ffd700,#ffb347,#fff2b2);
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+    text-align:center;
+}
+
+/* SUBTITLE */
+
+.subtitle{
+
+    margin-top:15px;
+
+    color:#dddddd;
+
+    font-size:20px;
+}
+
+/* SEARCH */
+
+.search-container{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-top:20px;
+
+    z-index:10;
+
+    position:relative;
+}
+
+.search-box{
+
+    width:700px;
+
+    max-width:90%;
+
+    background:rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,0.1);
+
+    border-radius:20px;
+
+    padding:15px;
+
+    display:flex;
+
+    gap:10px;
+
+    box-shadow:0 0 30px rgba(255,140,0,0.2);
+}
+
+.search-box input{
+
+    flex:1;
+
+    background:transparent;
+
+    border:none;
+
+    outline:none;
+
+    color:white;
+
+    font-size:18px;
+
+    padding:10px;
+}
+
+.search-box input::placeholder{
+    color:#cccccc;
+}
+
+.search-box button{
+
+    border:none;
+
+    padding:14px 28px;
+
+    border-radius:14px;
+
+    background:
+    linear-gradient(45deg,#ff8800,#ffb347);
+
+    color:white;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.search-box button:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:0 0 20px orange;
+}
+
+/* FESTIVAL CONTAINER */
+
+#festivalContainer{
+
+    width:90%;
+
+    max-width:1400px;
+
+    margin:50px auto;
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(350px,1fr));
+
+    gap:30px;
+}
+
+/* FESTIVAL CARD */
+
+.festival{
+
+    background:rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(16px);
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    transition:0.4s;
+
+    cursor:pointer;
+
+    box-shadow:0 0 25px rgba(255,140,0,0.08);
+}
+
+.festival:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 0 40px rgba(255,140,0,0.3);
+}
+
+.festival img{
+
+    width:100%;
+
+    height:240px;
+
+    object-fit:cover;
+
+    display:block;
+}
+
+.card-content{
+    padding:25px;
+}
+
+.festival h2{
+
+    color:#ffd700;
+
+    margin-bottom:12px;
+
+    font-size:28px;
+}
+
+.label{
+
+    color:#ffcc70;
+
+    font-weight:600;
+}
+
+.festival p{
+
+    margin:10px 0;
+
+    color:#e7e7e7;
+
+    line-height:1.7;
+}
+
+h3{
+
+    margin-top:20px;
+
+    margin-bottom:10px;
+
+    color:#ffb347;
+}
+
+ul{
+    padding-left:25px;
+}
+
+li{
+    margin:8px 0;
+}
+
+.error{
+
+    text-align:center;
+
+    color:#ff4d4d;
+
+    margin-top:20px;
+
+    font-size:18px;
+}
+
+.footer{
+
+    text-align:center;
+
+    padding:50px 20px;
+
+    color:#cccccc;
+
+    font-size:15px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .main-title{
+        font-size:34px;
+    }
+
+    .subtitle{
+        font-size:16px;
+        padding:0 20px;
+    }
+
+    .om-background{
+        font-size:140px;
+    }
+
+    .search-box{
+        flex-direction:column;
+    }
+
+    .search-box button{
+        width:100%;
+    }
+
+    .orbit1{
+        width:120px;
+        height:120px;
+    }
+
+    .orbit2{
+        width:180px;
+        height:180px;
+    }
+
+    .orbit3{
+        width:260px;
+        height:260px;
+    }
+
+    .orbit4{
+        width:340px;
+        height:340px;
+    }
+
+    .orbit5{
+        width:420px;
+        height:420px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="cosmic-bg">
+
+    <div class="center-glow"></div>
+
+    <div class="orbit orbit1">
+        <div class="planet planet1"></div>
+    </div>
+
+    <div class="orbit orbit2">
+        <div class="planet planet2"></div>
+    </div>
+
+    <div class="orbit orbit3">
+        <div class="planet planet3"></div>
+    </div>
+
+    <div class="orbit orbit4">
+        <div class="planet planet4"></div>
+    </div>
+
+    <div class="orbit orbit5">
+        <div class="planet planet5"></div>
+    </div>
+
+    <div class="om-background">
+        ॐ
+    </div>
+
+</div>
+
+<div class="hero-content">
+
+    <h1 class="main-title">
+        ॐ DharmaSense
+    </h1>
+
+    <p class="subtitle">
+        Discover the spiritual & scientific wisdom behind festivals
+    </p>
+
+</div>
+
+<div class="search-container">
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search festivals like Diwali, Holi, Navratri..."
+        >
+
+        <button onclick="searchFestival()">
+            Search
+        </button>
+
+    </div>
+
+</div>
+
+<div id="errorMsg" class="error"></div>
+
+<div id="festivalContainer"></div>
+
+<div class="footer">
+    ✨ Ancient Wisdom • Cosmic Energy • Spiritual Intelligence ✨
+</div>
+
+<script>
+
+function displayFestival(festival) {
+
+    const container =
+    document.getElementById("festivalContainer");
+
+    let ritualsList = "";
+
+    if (festival.rituals_and_fasting?.rituals) {
+
+        ritualsList = "<ul>";
+
+        festival.rituals_and_fasting.rituals.forEach(r => {
+
+            ritualsList += `<li>${r}</li>`;
+
+        });
+
+        ritualsList += "</ul>";
+    }
+
+    let scientificBasisList = "";
+
+    if (festival.modern_scientific_comparison?.scientific_basis) {
+
+        scientificBasisList = "<ul>";
+
+        festival.modern_scientific_comparison.scientific_basis.forEach(s => {
+
+            scientificBasisList += `<li>${s}</li>`;
+
+        });
+
+        scientificBasisList += "</ul>";
+    }
+
+    container.innerHTML = `
+
+        <div class="festival">
+
+            <img
+                src="${festival.image_url}"
+                alt="${festival.festival_or_tithi}"
+                onerror="this.src='https://images.unsplash.com/photo-1506744038136-46273834b3fb';"
+            >
+
+            <div class="card-content">
+
+            <h2>${festival.festival_or_tithi}</h2>
+
+            <p><span class="label">Type:</span> ${festival.type}</p>
+
+            <p><span class="label">Tithi/Event:</span>
+            ${festival.tithi_or_event}</p>
+
+            <p><span class="label">Puranic Practice:</span>
+            ${festival.puranic_practice}</p>
+
+            <p><span class="label">Scientific Logic:</span>
+            ${festival.puranic_scientific_logic}</p>
+
+            <p><span class="label">Modern Therapy:</span>
+            ${festival.modern_scientific_therapy}</p>
+
+            <p><span class="label">Core Principle:</span>
+            ${festival.core_common_principle}</p>
+
+            <h3>🪔 Puranic Logic</h3>
+
+            <p>${festival.puranic_logic?.symbolism}</p>
+
+            <p>${festival.puranic_logic?.story_reference}</p>
+
+            <p>${festival.puranic_logic?.encoded_message}</p>
+
+            <h3>🌙 Rituals & Fasting</h3>
+
+            <p>${festival.rituals_and_fasting?.fasting_type}</p>
+
+            <p>${festival.rituals_and_fasting?.reason}</p>
+
+            ${ritualsList}
+
+            <h3>🧠 Modern Scientific Comparison</h3>
+
+            <p>${festival.modern_scientific_comparison?.ancient_practice}</p>
+
+            <p>${festival.modern_scientific_comparison?.modern_therapy}</p>
+
+            ${scientificBasisList}
+
+            <p><span class="label">Unique Insight:</span>
+            ${festival.unique_insight}</p>
+
+            </div>
+
+        </div>
+
+    `;
+}
+
+function openFestival(name) {
+
+    fetch(`/api/festival/${encodeURIComponent(name)}`)
+
+    .then(res => {
+
+        if (!res.ok)
+            throw new Error("Festival not found");
+
+        return res.json();
+
+    })
+
+    .then(data => {
+
+        displayFestival(data);
+
+        document.getElementById("errorMsg").textContent = "";
+
+    })
+
+    .catch(err => {
+
+        document.getElementById("festivalContainer").innerHTML = "";
+
+        document.getElementById("errorMsg").textContent = err.message;
+
+    });
+
+}
+
+function searchFestival() {
+
+    const value =
+    document.getElementById("searchInput")
+    .value
+    .trim();
+
+    if (value === "") {
+
+        document.getElementById("errorMsg")
+        .textContent =
+        "Please enter a festival name.";
+
+        return;
+    }
+
+    window.location.href =
+    `/?festival=${encodeURIComponent(value)}`;
+}
+
+document
+.getElementById("searchInput")
+.addEventListener("keydown", function (e) {
+
+    if (e.key === "Enter") {
+
+        e.preventDefault();
+
+        searchFestival();
+    }
+
+});
+
+
+fetch("/api/festivals")
+
+.then(res => res.json())
+
+.then(data => {
+
+    const container =
+    document.getElementById("festivalContainer");
+
+    container.innerHTML = "";
+
+    data.festival_intelligence_engine.forEach(festival => {
+
+        const div = document.createElement("div");
+
+        div.className = "festival";
+
+        div.innerHTML = `
+
+            <img
+                src="${festival.image_url}"
+                alt="${festival.festival_or_tithi}"
+                onerror="this.src='https://images.unsplash.com/photo-1506744038136-46273834b3fb';"
+            >
+
+            <div class="card-content">
+
+            <h2>${festival.festival_or_tithi}</h2>
+
+            <p>
+            <span class="label">Type:</span>
+            ${festival.type}
+            </p>
+
+            <p>${festival.puranic_practice}</p>
+
+            <p style="margin-top:20px;color:#ffcc70;">
+            Click to explore →
+            </p>
+
+            </div>
+
+        `;
+
+        div.onclick = () => {
+
+            window.location.href =
+            `/?festival=${encodeURIComponent(
+                festival.festival_or_tithi
+            )}`;
+
+        };
+
+        container.appendChild(div);
+
+    });
+
+})
+
+.catch(error => {
+
+    document.getElementById("errorMsg").textContent =
+    "Failed to load festivals.";
+
+    console.error(error);
+
+});
+
+const params =
+new URLSearchParams(window.location.search);
+
+const festivalFromURL =
+params.get("festival");
+
+if (festivalFromURL) {
+
+    openFestival(festivalFromURL);
+}
+
+</script>
+
+</body>
+</html>
