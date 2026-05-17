@@ -21,6 +21,3 @@ def get_festival_by_name(name):
         if festival["festival_or_tithi"].lower() == name.lower():
             return jsonify(festival)
     return jsonify({"error": "Festival not found"}), 404
-
-if __name__ == "__main__":
-    app.run(debug=True)
