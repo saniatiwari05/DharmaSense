@@ -81,29 +81,10 @@ body::after{
 
     align-items:center;
 
-    overflow:hidden;
-
     z-index:-2;
 }
 
-/* CENTER GLOW */
-
-.center-glow{
-
-    position:absolute;
-
-    width:500px;
-    height:500px;
-
-    border-radius:50%;
-
-    background:
-    radial-gradient(circle,
-    rgba(255,170,0,0.22),
-    transparent 70%);
-}
-
-/* OM SYMBOL */
+/* OM */
 
 .om-background{
 
@@ -111,16 +92,9 @@ body::after{
 
     font-size:260px;
 
-    color:#ffcc66;
+    color:rgba(255,215,0,0.08);
 
-    text-shadow:
-    0 0 20px #ff9900,
-    0 0 60px #ff8800,
-    0 0 120px #ff6600;
-
-    animation:omPulse 5s ease-in-out infinite;
-
-    z-index:5;
+    animation:omPulse 6s ease-in-out infinite;
 }
 
 @keyframes omPulse{
@@ -562,8 +536,6 @@ li{
 
 <div class="cosmic-bg">
 
-    <div class="center-glow"></div>
-
     <div class="orbit orbit1">
         <div class="planet planet1"></div>
     </div>
@@ -732,7 +704,12 @@ function displayFestival(festival) {
 
 function openFestival(name) {
 
-    fetch(`/api/festival/${encodeURIComponent(name)}`)
+    const cleanName =
+    encodeURIComponent(
+        name.trim()
+    );
+
+    fetch(`/api/festival/${cleanName}`)
 
     .then(res => {
 
@@ -747,15 +724,20 @@ function openFestival(name) {
 
         displayFestival(data);
 
-        document.getElementById("errorMsg").textContent = "";
+        document.getElementById("errorMsg")
+        .textContent = "";
 
     })
 
     .catch(err => {
 
-        document.getElementById("festivalContainer").innerHTML = "";
+        document.getElementById(
+            "festivalContainer"
+        ).innerHTML = "";
 
-        document.getElementById("errorMsg").textContent = err.message;
+        document.getElementById(
+            "errorMsg"
+        ).textContent = err.message;
 
     });
 
@@ -766,6 +748,7 @@ function searchFestival() {
     const value =
     document.getElementById("searchInput")
     .value
+    .replace(/\s+/g, " ")
     .trim();
 
     if (value === "") {
@@ -793,7 +776,6 @@ document
     }
 
 });
-
 
 fetch("/api/festivals")
 
@@ -839,14 +821,17 @@ fetch("/api/festivals")
 
         `;
 
-        div.onclick = () => {
+        div.addEventListener("click", () => {
+
+            const festivalName =
+            encodeURIComponent(
+                festival.festival_or_tithi.trim()
+            );
 
             window.location.href =
-            `/?festival=${encodeURIComponent(
-                festival.festival_or_tithi
-            )}`;
+            `/?festival=${festivalName}`;
 
-        };
+        });
 
         container.appendChild(div);
 
@@ -869,9 +854,14 @@ new URLSearchParams(window.location.search);
 const festivalFromURL =
 params.get("festival");
 
-if (festivalFromURL) {
+if (
+    festivalFromURL &&
+    festivalFromURL.trim() !== ""
+) {
 
-    openFestival(festivalFromURL);
+    openFestival(
+        decodeURIComponent(festivalFromURL)
+    );
 }
 
 </script>
